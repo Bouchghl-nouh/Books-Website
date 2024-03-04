@@ -22,21 +22,26 @@ This project is a website built using React and Vite that consumes the OpenLibra
 
 1. Clone the repository:
 
-git clone https://github.com/Bouchghl-nouh/Books-Website.git
-
+    ```
+    git clone https://github.com/Bouchghl-nouh/Books-Website.git
+    ```
 2. Navigate into the project directory:
 
-cd Books-website
-
+    ```
+    cd Books-website
+    ```
 3. Install dependencies:
 
-npm install
-
+    ```
+    npm install
+    ```
 ### Usage
 
 1. Start the development server:
 
-npm run dev
+    ```
+    npm run dev
+    ```
 
 2. Open your browser and navigate to `http://localhost:8000` to view the website.
 
