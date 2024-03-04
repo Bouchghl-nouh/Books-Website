@@ -1,0 +1,14 @@
+.about{
+    width: 900px;
+    margin: 50px auto  ;
+}
+.about h3{
+    margin-bottom: 30px;
+}
+.about-content {
+    display: flex;
+        gap: 70px;
+}
+.about-description p{
+    line-height: 1.8 ;
+}

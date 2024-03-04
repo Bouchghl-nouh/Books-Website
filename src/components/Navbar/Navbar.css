@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    padding:0 ;
+    margin:0 ;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins' ,'sans-serif';
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px; 
+    padding-bottom:20px ;
+}
+.Navbar a {
+    text-decoration: none;
+    color: black;
+}
+.book_title{
+display: flex;
+padding-left: 20px;
+}
+.book_title  h3 { 
+    display: flex; 
+     align-items: center; 
+     padding-left: 20px;
+}
+
+.links{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    padding-right: 20px;
+}
+.links a {
+    text-decoration: none;
+    color: black;
+}
+.links a:hover{
+    color : purple;
+}
+.links .active {
+    color : purple ;
+}

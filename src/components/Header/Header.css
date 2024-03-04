@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    padding:0 ;
+    margin:0 ;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins' ,'sans-serif';
+}
+.Header-content{
+    background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)), url("../../images//library-img.jpg") center/cover no-repeat;
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+}
+.Header{
+    text-align: center;
+    margin: 0 auto ;
+}
+.Header h1{
+    margin-bottom: 13px;
+    color: white;
+}
+.Header p {
+    margin: 0 auto;
+    max-width: 600px;
+    line-height: 1.8;
+    color :white
+}

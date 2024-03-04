@@ -1,0 +1,36 @@
+.book-details{
+    margin: 50px 100px;
+}
+.book-details span {
+    font-weight: bold;
+}
+.book-details .content  button {
+    background-color: transparent;
+cursor: pointer;
+border: none;
+display: flex;
+justify-content: space-between;
+gap: 10px;
+position: relative;
+    margin-bottom: 20px;
+}
+.book-details .content button span {
+
+    font-size: 17px;
+}
+.book-details .content button:hover{
+    color : purple ;
+}
+.book-details .content .book-details-content{
+display: flex;
+gap:70px ;
+
+}
+.book-details .content .book-details-content .book-details-info {
+    max-width: 600px;
+    height: 500px;
+    line-height: 1.8;
+    padding: 10px 20px 0 0 ;
+    overflow: scroll;
+    scrollbar-color:purple transparent;
+}
